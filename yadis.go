@@ -5,13 +5,13 @@
 package openid
 
 import (
+	"bytes"
 	"errors"
-	"net/http"
-	"net/url"
 	"io"
 	"io/ioutil"
-	"bytes"
 	"log"
+	"net/http"
+	"net/url"
 	"regexp"
 	"strings"
 )
